@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.sass';
 
+// components
+import BoardgameTable from './components/BoardgameTable';
+
 class App extends Component {
   render() {
     return (
@@ -10,9 +13,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Willkommen zum Brettspiel Banter Wahllokal</h1>
         </header>
-        <p className="App-intro">
-          Testing testing
-        </p>
+        <BoardgameTable></BoardgameTable>
       </div>
     );
   }
