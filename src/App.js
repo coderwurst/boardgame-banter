@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.sass';
 
-import sheetsConfig from '../config';
+import sheetsConfig from './config/sheetsConfig';
 
 // components
 import BoardgameTable from './components/BoardgameTable';

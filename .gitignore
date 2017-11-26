@@ -62,4 +62,4 @@ typings/
 *.css.map
 
 #config files
-config/sheetsConfig.js
+src/config/sheetsConfig.js
