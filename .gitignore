@@ -60,3 +60,6 @@ typings/
 #sass
 .sass-cache/
 *.css.map
+
+#config files
+config/sheets-config.js
