@@ -6,6 +6,3 @@ The aim of this project is to provide a responsive application to allow users to
 - Users should be able to view games currently available
 - Users should be able to add his/her games to the list
 - Users should be able to remove his/her games from the list
-
-## Resources
-[Trello](https://trello.com/b/aiviDj3G/boardgame-banter)
