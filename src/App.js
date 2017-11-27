@@ -18,6 +18,7 @@ class App extends Component {
         </header>
         
         <ReactGoogleSheetConnector
+            apiKey={sheetsConfig.apiKey}
             clientid={sheetsConfig.clientid}
             spreadsheetId={sheetsConfig.spreadsheetId}
             spinner={ <div className="loading-spinner"/> } >
