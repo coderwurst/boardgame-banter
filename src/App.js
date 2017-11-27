@@ -22,9 +22,7 @@ class App extends Component {
             clientid={sheetsConfig.clientid}
             spreadsheetId={sheetsConfig.spreadsheetId}
             spinner={ <div className="loading-spinner"/> } >
-            <div>
-              This content will be rendered once the data has been fetched from the spreadsheet.
-            </div>
+            <BoardgameTable></BoardgameTable>
         </ReactGoogleSheetConnector>
 
         
