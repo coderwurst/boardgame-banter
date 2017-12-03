@@ -25,8 +25,9 @@ class App extends Component {
               <BoardgameTable></BoardgameTable>
           </ReactGoogleSheetConnector>
         </div>
-        
-      
+        <div className="App-footer">
+          <h4>black coffee studios 2018</h4>
+        </div>
       </div>
     );
   }
