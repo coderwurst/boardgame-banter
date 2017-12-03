@@ -16,15 +16,15 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Willkommen zum Brettspiel Banter Wahllokal</h1>
         </header>
-        
-        <ReactGoogleSheetConnector
-            apiKey={sheetsConfig.apiKey}
-            clientid={sheetsConfig.clientid}
-            spreadsheetId={sheetsConfig.spreadsheetId}
-            spinner={ <div className="loading-spinner"/> } >
-            <BoardgameTable></BoardgameTable>
-        </ReactGoogleSheetConnector>
-
+        <div class="table-wrapper">
+          <ReactGoogleSheetConnector
+              apiKey={sheetsConfig.apiKey}
+              clientid={sheetsConfig.clientid}
+              spreadsheetId={sheetsConfig.spreadsheetId}
+              spinner={ <div className="loading-spinner"/> } >
+              <BoardgameTable></BoardgameTable>
+          </ReactGoogleSheetConnector>
+        </div>
         
       
       </div>
