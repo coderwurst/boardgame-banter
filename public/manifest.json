@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "boardgame-banter",
+  "name": "Boardgame Banter",
   "icons": [
     {
       "src": "favicon.ico",
