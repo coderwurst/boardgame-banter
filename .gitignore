@@ -63,3 +63,4 @@ typings/
 
 #config files
 src/config/sheetsConfig.js
+.env
