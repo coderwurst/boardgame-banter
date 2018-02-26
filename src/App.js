@@ -10,15 +10,6 @@ import ReactGoogleSheetConnector from "react-google-sheet-connector"
 
 class App extends Component {
   render() {
-
-    const aws = require('aws-sdk');
-
-    let s3 = new aws.S3({
-      spreadsheetId: process.env.REACT_APP_spreadsheetId,
-      clientid: process.env.REACY_APP_clientId,
-      apiKey: process.env.REACT_APP_apiKey
-    });
-
     console.log("test:" + process.env.REACT_APP_apiKey);
 
     return (
@@ -29,9 +20,9 @@ class App extends Component {
         </header>
         <div class="table-wrapper">
           <ReactGoogleSheetConnector
-              apiKey={apiKey}
-              clientid={clientid}
-              spreadsheetId={spreadsheetId}
+              apiKey={process.env.REACT_APP_apiKey}
+              clientid={process.env.REACY_APP_clientId}
+              spreadsheetId={process.env.REACT_APP_spreadsheetId}
               spinner={ <div className="loading-spinner"/> } >
               <BoardgameTable></BoardgameTable>
           </ReactGoogleSheetConnector>
